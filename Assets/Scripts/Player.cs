@@ -39,10 +39,4 @@ public class Player : MonoBehaviour
     {
         touchGround = true;
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(other.gameObject);
-        AudioSource.PlayClipAtPoint(coinSound, transform.position);
-    }
 }
