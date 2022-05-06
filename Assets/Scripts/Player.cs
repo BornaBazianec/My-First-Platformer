@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     {
         if (jump)
         {
-            rigidbodyComponent.AddForce(6 * Vector3.up,ForceMode.VelocityChange);
+            rigidbodyComponent.AddForce(8 * Vector3.up,ForceMode.VelocityChange);
             jump = false;
             touchGround = false;
         }

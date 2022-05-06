@@ -12,6 +12,6 @@ public class game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CoinText.text = "Coins : " + coins;
+        CoinText.text = "Coins : " + coins + "/8";
     }
 }
